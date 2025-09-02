@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/build-a-table-on-the-little-lemon-website/static/css/main.633627d1.css",
-    "main.js": "/build-a-table-on-the-little-lemon-website/static/js/main.8ad2b294.js",
-    "static/js/453.41d91607.chunk.js": "/build-a-table-on-the-little-lemon-website/static/js/453.41d91607.chunk.js",
-    "static/media/food3.jpg": "/build-a-table-on-the-little-lemon-website/static/media/food3.cc98b69b023d1447eeba.jpg",
-    "static/media/food1.jpg": "/build-a-table-on-the-little-lemon-website/static/media/food1.137b545dd144e2140a61.jpg",
-    "static/media/logo.jpg": "/build-a-table-on-the-little-lemon-website/static/media/logo.d4cae6fac8384c2dae04.jpg",
-    "index.html": "/build-a-table-on-the-little-lemon-website/index.html",
-    "main.633627d1.css.map": "/build-a-table-on-the-little-lemon-website/static/css/main.633627d1.css.map",
-    "main.8ad2b294.js.map": "/build-a-table-on-the-little-lemon-website/static/js/main.8ad2b294.js.map",
-    "453.41d91607.chunk.js.map": "/build-a-table-on-the-little-lemon-website/static/js/453.41d91607.chunk.js.map"
+    "main.css": "/booking-a-table-on-the-little-lemon-website/static/css/main.05594b0a.css",
+    "main.js": "/booking-a-table-on-the-little-lemon-website/static/js/main.15238a18.js",
+    "static/js/453.41d91607.chunk.js": "/booking-a-table-on-the-little-lemon-website/static/js/453.41d91607.chunk.js",
+    "static/media/food3.jpg": "/booking-a-table-on-the-little-lemon-website/static/media/food3.cc98b69b023d1447eeba.jpg",
+    "static/media/food1.jpg": "/booking-a-table-on-the-little-lemon-website/static/media/food1.137b545dd144e2140a61.jpg",
+    "static/media/logo.jpg": "/booking-a-table-on-the-little-lemon-website/static/media/logo.d4cae6fac8384c2dae04.jpg",
+    "index.html": "/booking-a-table-on-the-little-lemon-website/index.html",
+    "main.05594b0a.css.map": "/booking-a-table-on-the-little-lemon-website/static/css/main.05594b0a.css.map",
+    "main.15238a18.js.map": "/booking-a-table-on-the-little-lemon-website/static/js/main.15238a18.js.map",
+    "453.41d91607.chunk.js.map": "/booking-a-table-on-the-little-lemon-website/static/js/453.41d91607.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.633627d1.css",
-    "static/js/main.8ad2b294.js"
+    "static/css/main.05594b0a.css",
+    "static/js/main.15238a18.js"
   ]
 }
