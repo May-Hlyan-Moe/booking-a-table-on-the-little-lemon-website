@@ -50,6 +50,7 @@ const Main = () => {
     }
     return (
         <>
+            <Header /> 
             <main>
                 <Routes>
                     <Route path="" element={<Header />} />
