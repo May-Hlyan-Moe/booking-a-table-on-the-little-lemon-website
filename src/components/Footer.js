@@ -38,7 +38,7 @@ const Footer = () => {
                 <h3>more about this website</h3>
                 <p>
                     I created this page for the Meta Front-End Developer Capstone Project to develop my React skills.
-                    This project was coded by <a href="" target="_blank">May Hlyan Moe</a> and is <a href="" target="_blank">open sourced</a>.
+                    This project was coded by <a href="https://may-hlyan-moe.github.io/portfolio" target="_blank">May Hlyan Moe</a> and is <a href="https://github.com/May-Hlyan-Moe/booking-a-table-on-the-little-lemon-website" target="_blank">open sourced</a>.
                 </p>
             </div>
         </div>
