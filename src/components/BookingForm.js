@@ -26,14 +26,14 @@ const BookingForm = (props) => {
 
                         {/* for date selection */}
                         <div className="each-input row">
-                            <label htmlFor="book-date" className="col-md-6">Choose Date:</label>
-                            <input id="book-date" value={date} onChange={(e) => handleChange(e.target.value)} type="date" className="col-md-6" required />
+                            <label htmlFor="book-date" className="col-md-4">Choose Date:</label>
+                            <input id="book-date" value={date} onChange={(e) => handleChange(e.target.value)} type="date" className="col-md-4" required />
                         </div>
 
                         {/* for times selection */}
                         <div className="each-input row">
-                            <label htmlFor="book-time" className="col-md-3">Choose Time:</label>
-                            <select id="book-time" value={times} onChange={(e) => setTimes(e.target.value)} className="col-md-3">
+                            <label htmlFor="book-time" className="col-md-4">Choose Time:</label>
+                            <select id="book-time" value={times} onChange={(e) => setTimes(e.target.value)} className="col-md-4">
                                 {/* <option value="">Select a Time</option> */}
                                 {
                                     props.availableTimes.availableTimes.map(availableTimes => {
@@ -45,14 +45,14 @@ const BookingForm = (props) => {
 
                         {/* for guests selection */}
                         <div className="each-input row">
-                            <label htmlFor="book-guests" className="col-md-3">Number of Guests:</label>
-                            <input id="book-guests" min="1" value={guests} onChange={(e) => setGuests(e.target.value)} className="col-md-3" required/>
+                            <label htmlFor="book-guests" className="col-md-4">Number of Guests:</label>
+                            <input id="book-guests" min="1" value={guests} onChange={(e) => setGuests(e.target.value)} className="col-md-4" required/>
                         </div>
 
                         {/* for occasion selection */}
-                        <div className="each-input">
-                            <label htmlFor="book-occasion" className="col-md-3">Choose Occasion:</label>
-                            <select id="book-occasion" key={occasion} value={occasion} onChange={(e) => setOccasion(e.target.value)} className="col-md-3">
+                        <div className="each-input row">
+                            <label htmlFor="book-occasion" className="col-md-4">Choose Occasion:</label>
+                            <select id="book-occasion" key={occasion} value={occasion} onChange={(e) => setOccasion(e.target.value)} className="col-md-4">
                                 <option>Birthday</option>
                                 <option>Anniversary</option>
                                 <option>Others</option>

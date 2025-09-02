@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../images/logo.jpg';
 
 const Nav = () => {
@@ -10,9 +11,9 @@ const Nav = () => {
 
     return (
         <nav className={`navbar ${menuOpen ? "open" : ""}`}>
-            <a href='/'>
+            <Link to='/'>
                 <img src={logo} alt='logo' width={120} />
-            </a>
+            </Link>
 
             {/* mobile navbar */}
             <div className='menu-icon' onClick={toggleMenu}>
@@ -24,25 +25,25 @@ const Nav = () => {
             {/* nav items */}
             <ul className={`nav-links ${menuOpen ? "visible" : ""}`}>
                 <li>
-                    <a href='/home'>Home</a>
+                    <Link to="/" >Home</Link>
                 </li>
                 <li>
-                    <a href='/'>About</a>
+                    <Link to='/'>About</Link>
                 </li>
                 <li>
-                    <a href='/'>Services</a>
+                    <Link to='/'>Services</Link>
                 </li>
                 <li>
-                    <a href='/'>Menu</a>
+                    <Link to='/'>Menu</Link>
                 </li>
                 <li>
-                    <a href='/'>Reservation</a>
+                    <Link to='/'>Reservation</Link>
                 </li>
                 <li>
-                    <a href='/'>Order Online</a>
+                    <Link to='/'>Order Online</Link>
                 </li>
                 <li>
-                    <a href='/'>Login</a>
+                    <Link to='/'>Login</Link>
                 </li>
             </ul>
         </nav>
