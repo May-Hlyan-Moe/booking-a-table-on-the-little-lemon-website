@@ -1,0 +1,329 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Nav */
+
+nav {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #cacaca;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #cacaca;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+nav .menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+nav .bar {
+    background-color: #000;
+    margin: 5px 0;
+    width: 25px;
+    height: 3px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1em;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline solid #495E57;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links.visible {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 800px) {
+    nav .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}
+
+/* Header */
+
+.Header {
+    background-color: #495E57;
+
+    section {
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .headerText {
+        padding: 30px;
+
+        h2 {
+            color: #f4ce14;
+            font-size: 40px;
+        }
+
+        h3 {
+            font-size: 30px;
+            color: #fff;
+        }
+
+        p {
+            font-size: 20px;
+            max-width: 520px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+            color: #fff;
+        }
+
+        button {
+            width: 170px;
+            padding: 10px;
+            background-color: #f4ce14;
+            border: none;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    }
+    
+    img {
+        border-radius: 20px;
+        margin-right: 20px;
+    }
+
+    @media (max-width: 650px) {
+        img {
+            display: none;
+        }
+    }
+}
+
+/* Menu */
+
+.Menu {
+    margin: 50px;
+
+    .menu-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+        h2 {
+            font-weight: bold;
+        }
+
+        button {
+            width: 130px;
+            padding: 8px;
+            background-color: #f4ce14;
+            border: none;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    }
+
+    .cards {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem 1rem;
+
+        .each-card {
+            width: 350px;
+            background-color: #64736e;
+            color: #fff;
+            border-radius: 8px;
+
+            img {
+                width: 100%;
+                height: 250px;
+                border-radius: 8px 8px 0 0;
+            }
+
+            .menu-content {
+                margin: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            .description {
+                margin: 10px;
+                font-size: 16px;
+            }
+
+            button {
+                margin: 10px 10px 20px 10px;
+                width: 130px;
+                padding: 8px;
+                background-color: #f4ce14;
+                border: none;
+                text-decoration: none;
+                border-radius: 12px;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                font-family: 'Times New Roman', Times, serif;
+            }
+        }
+    }
+}
+
+/* Footer */
+
+.Footer {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-top: 1px solid #cacaca;
+    margin: 10px;
+    padding-top: 20px;
+    font-size: 14px;
+
+    h3 {
+        margin-left: 22px;
+    }
+
+    .company-info {
+        width: 300px;
+        margin: 10px;
+    }
+
+    .links {
+        margin: 10px;
+        ul {
+            list-style: none;
+            li  a {
+                color: #000;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .contact {
+        margin: 10px;
+        ul {
+            list-style: none;
+        }
+    }
+}
+
+.final-part {
+    padding: 20px;
+    background-color: #495E57;
+    color: #fff;
+}
+
+.final-part a {
+    color: #fff;
+}
+
+/* BookingForm */
+
+.BookingForm {
+    padding: 30px 30px 60px 30px;
+    border-bottom: 1px solid #cacaca;
+    height: 70vh;
+    
+
+    form {
+        .each-input {
+            margin: 20px 40px 20px 0;
+        }
+
+        label, input, select {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .btnReceive input {
+            padding: 12px 16px;
+            margin-top: 10px;
+            background-color: #495e57;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+    }
+}
+
+/* ConfirmedBooking */
+
+.ConfirmedBooking {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #cacaca;
+
+    h1 {
+        margin: 20px 0;
+        font-weight: bold;
+    }
+
+    button {
+        padding: 12px 16px;
+        margin-top: 20px;
+        background-color: #495e57;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+}
